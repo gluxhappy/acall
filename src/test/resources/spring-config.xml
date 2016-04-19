@@ -16,8 +16,8 @@
 		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.1.xsd">
 
 
-	<bean class="com.qixincloud.mbus.test.DemoImpl" />
-	<bean class="com.qixincloud.mbus.export.SpringProxyServerExporter">
+	<bean class="me.glux.acall.test.DemoImpl" />
+	<bean class="me.glux.acall.export.SpringProxyServerExporter">
 		<property name="host" value="192.168.1.17" />
 		<property name="vhost" value="asyn" />
 		<property name="username" value="asyn" />
@@ -26,7 +26,7 @@
 		<property name="resultExchange" value="result" />
 	</bean>
 
-	<bean class="com.qixincloud.mbus.export.SpringProxyClientExporter">
+	<bean class="me.glux.acall.export.SpringProxyClientExporter">
 		<property name="host" value="192.168.1.17" />
 		<property name="vhost" value="asyn" />
 		<property name="username" value="asyn" />
@@ -35,7 +35,7 @@
 		<property name="resultExchange" value="result" />
 		<property name="proxyInterfaces">
 			<list>
-				<value>com.qixincloud.mbus.test.Demo</value>
+				<value>me.glux.acall.test.Demo</value>
 			</list>
 		</property>
 	</bean>
