@@ -1,6 +1,7 @@
 package me.glux.acall.protocal;
 
 public class ExceptionHolder {
+    // no ops
     private String type;
     private String message;
     public ExceptionHolder(String type,String message){
