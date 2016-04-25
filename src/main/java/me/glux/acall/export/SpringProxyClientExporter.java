@@ -21,8 +21,8 @@ import me.glux.acall.annotation.MbusService;
 import me.glux.acall.asyn.ParkedThread;
 import me.glux.acall.asyn.TimeoutObjectManager;
 import me.glux.acall.client.AsynProxyClient;
-import me.glux.acall.imp.rabbit.RabbitRequestSender;
-import me.glux.acall.imp.rabbit.RabbitResultReceiver;
+import me.glux.acall.impl.rabbit.RabbitRequestSender;
+import me.glux.acall.impl.rabbit.RabbitResultReceiver;
 
 public class SpringProxyClientExporter implements BeanFactoryPostProcessor {
 	private static final Logger logger = LoggerFactory.getLogger(SpringProxyClientExporter.class);

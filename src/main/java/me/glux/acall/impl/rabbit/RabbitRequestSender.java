@@ -1,4 +1,4 @@
-package me.glux.acall.imp.rabbit;
+package me.glux.acall.impl.rabbit;
 
 import java.io.IOException;
 

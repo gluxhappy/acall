@@ -20,8 +20,8 @@ import me.glux.acall.RequestReceiver;
 import me.glux.acall.ResultSender;
 import me.glux.acall.annotation.MbusService;
 import me.glux.acall.client.ProxyInterface;
-import me.glux.acall.imp.rabbit.RabbitRequestReceiver;
-import me.glux.acall.imp.rabbit.RabbitResultSender;
+import me.glux.acall.impl.rabbit.RabbitRequestReceiver;
+import me.glux.acall.impl.rabbit.RabbitResultSender;
 import me.glux.acall.server.AsynProxyServer;
 
 public class SpringProxyServerExporter implements ApplicationContextAware {
