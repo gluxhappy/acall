@@ -30,7 +30,7 @@ import me.glux.acall.server.AsynProxyServer;
 public class DemoTest {
 	private static final Logger logger = LoggerFactory.getLogger(DemoTest.class);
 
-	@Test
+//	@Test
 	public void testDemo() {
 		try {
 			String requestExchange = "request";
